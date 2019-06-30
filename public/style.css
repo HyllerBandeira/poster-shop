@@ -279,6 +279,26 @@ body {
     padding: 0.5rem 0 0 0.25rem;
 }
 
+.fade-enter {
+    opacity: 0
+}
+
+.fade-enter-active {
+    transition: opacity 0.5s
+}
+
+[v-cloak] > * {
+    display: none 
+}
+
+[v-cloak] > #loading-div{
+    display: block ;
+    padding: 1em
+}
+
+#loading-div{
+    display: none 
+}
 
 @media (max-width: 1200px) {
     .container {
